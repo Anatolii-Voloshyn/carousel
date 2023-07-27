@@ -109,7 +109,7 @@ function getWindowWidth() {
 }
 
 .carousel img {
-  height: 360px;
+  height: 340px;
   object-fit: cover;
   margin-left: 14px;
   width: calc(100% / 3);
@@ -191,7 +191,20 @@ span:hover {
 @media screen and (max-width: 550px) {
   .carousel img {
     height: 500px;
-    width: 100%;
+    width: 350px;
+    margin-left: 14px;
   }
+
+  .wrapper button:first-child {
+    position: fixed;
+    left: 5px;
+    z-index: 1;
+}
+
+.wrapper button:last-child {
+  position: fixed;
+  right: 5px;
+  z-index: 1;
+}
 }
 </style>

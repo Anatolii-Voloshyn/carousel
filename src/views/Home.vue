@@ -4,6 +4,5 @@
     <router-link :to="{name: 'carousel'}">
       <img class="h-24 rounded-full" src="../cat.jpg" alt="Cat">
     </router-link>
-    
   </div>  
 </template>

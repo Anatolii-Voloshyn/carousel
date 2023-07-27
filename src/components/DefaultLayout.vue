@@ -1,7 +1,7 @@
 <template>
    <div >
     <navbar />
-    <main class="flex justify-center items-center p-12 bg-gray-700" :style="{ height: mainHeight}">
+    <main class="p-12 bg-gray-700" :style="{ height: mainHeight}">
       <router-view />
     </main>
   </div>

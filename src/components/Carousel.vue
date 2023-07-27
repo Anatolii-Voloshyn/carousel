@@ -206,7 +206,7 @@ span:hover {
 }
 
 .carousel-enter, .carousel-leave-to {
-  transform: translateX(105%);
+  transform: translateX(102%);
 }
 
 .fade-enter-active, .fade-leave-active {
